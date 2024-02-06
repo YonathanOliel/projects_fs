@@ -1,0 +1,126 @@
+<!-- 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="add.css" />
+    <title>Add Soldier</title>
+</head>
+<body>
+    <h1>Add Soldier</h1>
+    
+    <form id="soldierForm">
+
+        <label for="first_name">שם פרטי</label>
+        <input type="text" id="first_name" name="first_name" required>
+        <br>
+        <label for="last_name">שם משפחה</label>
+        <input type="text" id="last_name" name="last_name" required>
+        <br>
+        <label for="name_b">שם העסק</label>
+        <input type="text" id="name_b" name="name_b" required>
+        <br>
+        <label for="city">עיר</label>
+        <input type="text" id="city" name="city" required>
+        <br>
+        <label for="street">רחוב</label>
+        <input type="text" id="street" name="street" required>
+        <br>
+        <label for="adreess_num">מספר דירה</label>
+        <input type="text" id="adreess_num" name="adreess_num" required>
+        <br>
+        <label for="b_type">סוג עיסוק</label>
+        <input type="text" id="b_type" name="b_type" required>
+        <br>
+        <label for="googleMapsLink">Google Maps Link:</label>
+        <input type="text" id="googleMapsLink" name="googleMapsLink" required>
+        <br>
+        <br>
+        <button type="button" onclick="submitSoldier()">Submit Soldier</button>
+    </form>
+
+    <script src="add.js"></script>
+</body>
+</html> -->
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+    <meta charset="utf-8">
+    <title>miluimap3</title>
+    <link rel="stylesheet" href="add.css">
+</head>
+<body align="center" onload='setCookie("csrftoken", "0000", "1")'>
+
+<h1><b>ברוכים הבאים</b></h1>
+<h3>מילואימניק יקר אנא הכנס את פרטיך כדי שהעסק שלך יכנס לאתר </h3>
+
+<!-- <br>
+
+<input class="input" type="text" id="googleLink" placeholder="קישור לגוגל מפות">
+
+<br>
+
+<input  class="input" type="text" id="ocati" placeholder="עיר">
+
+<br>
+
+<input class="input" type="text" id="strit" placeholder="רחוב ">
+
+
+<br>
+
+<input class="input" type="text" id="number" placeholder="מספר">
+<br>
+
+<input class="input" type="text" id="businessNickname" placeholder="שמך">
+
+<br>
+
+
+<input class="input" type="text" id="lastnem" placeholder="שם משפחתך">
+
+<br> -->
+<form class="input">
+    <label for="first_name">שם פרטי</label>
+    <input type="text" id="first_name" name="first_name" required>
+    <br>
+    <label for="last_name">שם משפחה</label>
+    <input type="text" id="last_name" name="last_name" required>
+    <br>
+    <label for="name_b">שם העסק</label>
+    <input type="text" id="name_b" name="name_b" required>
+    <br>
+    <label for="city">עיר</label>
+    <input type="text" id="city" name="city" required>
+    <br>
+    <label for="street">רחוב</label>
+    <input type="text" id="street" name="street" required>
+    <br>
+    <label for="adreess_num">מספר דירה</label>
+    <input type="text" id="adreess_num" name="adreess_num" required>
+    <br>
+    <label for="b_type">סוג עיסוק</label>
+    <input type="text" id="b_type" name="b_type" required>
+    <br>
+    <label for="googleMapsLink">קישור לתמונה בגוגל מפות</label>
+    <input type="text" id="googleMapsLink" name="googleMapsLink" required>
+    <br>
+    <br>
+    <button type="button" onclick="submitSoldier()">Submit Soldier</button>
+</form>
+
+<select  class= "input" id="businessCategory">
+    <option value="" disabled selected>בחר סוג עסק</option>
+    <option value="category1">אוכל</option>
+    <option value="category2">בריאות</option>
+    <option value="category3">אופנה</option>
+    <option value="category4">-אחר-</option>
+</select>
+<br>
+<br>
+
+<script src="add.js"></script>
+
+</body>
+</html>

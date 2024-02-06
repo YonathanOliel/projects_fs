@@ -1,0 +1,114 @@
+/* 
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #3498db;
+}
+
+form {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #3498db;
+    border-radius: 8px;
+    background-color: #ecf0f1;
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+    color: #2c3e50;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border: 1px solid #bdc3c7;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #2980b9;
+} */
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #282c35; /* רקע שחור כהה */
+    color: #ecf0f1; /* צבע טקסט בהיר */
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+h1, h3 {
+    margin-top: 30px;
+    color: #3498db; /* כחול בהיר */
+}
+
+input {
+    padding: 15px;
+    font-size: 16px;
+    width: 30%;
+    box-sizing: border-box;
+    margin-top: 10px;
+    background-color: #34495e; /* רקע כהה */
+    color: #ecf0f1; /* צבע טקסט בהיר */
+    border: none;
+    border-radius: 5px;
+}
+
+input::placeholder,
+select::placeholder {
+    color: #bdc3c7; /* כחול בהיר */
+}
+
+input:focus, select:focus {
+    outline: none;
+    border: 2px solid #3498db; /* כחול בהיר */
+}
+
+/* עיצוב לכפתור (אם תוסיף כפתור בעתיד) */
+button {
+    padding: 15px;
+    font-size: 16px;
+    background-color: #3498db; /* כחול בהיר */
+    color: #ecf0f1; /* צבע טקסט בהיר */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #2980b9; /* כחול כהה */
+}
+
+.god {
+    padding: 15px;
+    font-size: 20px;
+    background-color: #3498db; /* ירוק בהיר */
+    color: #ecf0f1; /* צבע טקסט בהיר */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.god:hover {
+    background-color: #27ae60; /* ירוק כהה */
+}
